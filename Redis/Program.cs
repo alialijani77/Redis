@@ -1,8 +1,5 @@
-using Microsoft.Extensions.Configuration;
-using Redis.Data.Repositories;
-using Redis.Domain.Interfaces;
+using Redis.Data.Interfaces;
 using StackExchange.Redis;
-using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 

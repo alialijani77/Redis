@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Redis.Domain.Entities;
-using Redis.Domain.Interfaces;
 using System.Text.Json;
 using System.Text;
 using StackExchange.Redis;
+using Redis.Data.Interfaces;
 
 namespace Redis.Controllers
 {
